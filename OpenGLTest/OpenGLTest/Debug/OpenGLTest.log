@@ -1,0 +1,27 @@
+﻿Build started 13/05/2014 13:35:06.
+     1>Project "C:\Dropbox\Personal\Programming\CPP\OpenGLTest\OpenGLTest\OpenGLTest.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Dropbox\Personal\Programming\CPP\libs\glew-1.10.0\include" /I"C:\Dropbox\Personal\Programming\CPP\libs\freeglut-2.8.1\include" /IC:\Dropbox\Personal\Programming\CPP\libs\glm\glm /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp scene.cpp Shader.cpp shader_code.cpp shader_program.cpp trefoil_knot.cpp
+         trefoil_knot.cpp
+     1>c:\dropbox\personal\programming\cpp\opengltest\opengltest\trefoil_knot.cpp(26): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+         shader_program.cpp
+         shader_code.cpp
+         Shader.cpp
+         scene.cpp
+     1>c:\dropbox\personal\programming\cpp\opengltest\opengltest\scene.cpp(72): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+         GLM: rotate function taking degrees as a parameter is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+         main.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Dropbox\Personal\Programming\CPP\OpenGLTest\Debug\OpenGLTest.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Dropbox\Personal\Programming\CPP\libs\glew-1.10.0\lib" /LIBPATH:"C:\Dropbox\Personal\Programming\CPP\libs\freeglut-2.8.1\lib" /LIBPATH:"C:\Dropbox\Personal\Programming\CPP\libs\glew-1.10.0\lib\Release\Win32" /LIBPATH:"C:\Dropbox\Personal\Programming\CPP\libs\freeglut-2.8.1\lib\x86\Debug" glew32.lib freeglut.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Dropbox\Personal\Programming\CPP\OpenGLTest\Debug\OpenGLTest.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Dropbox\Personal\Programming\CPP\OpenGLTest\Debug\OpenGLTest.lib" /MACHINE:X86 Debug\main.obj
+         Debug\scene.obj
+         Debug\Shader.obj
+         Debug\shader_code.obj
+         Debug\shader_program.obj
+         Debug\trefoil_knot.obj
+         OpenGLTest.vcxproj -> C:\Dropbox\Personal\Programming\CPP\OpenGLTest\Debug\OpenGLTest.exe
+     1>Done Building Project "C:\Dropbox\Personal\Programming\CPP\OpenGLTest\OpenGLTest\OpenGLTest.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.52
